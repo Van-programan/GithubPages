@@ -5,6 +5,13 @@ on:
   push:
     branches: [main, master]
 
+  workflow_dispatch:
+    inputs:
+      description:
+        description: 'Deploy description'
+        required: false
+        default: 'Manual deployment'
+
 # Разрешения для деплоя на GitHub Pages
 permissions:
   contents: write

@@ -7,4 +7,4 @@ function Info() {
   );
 }
 
-export default About;
+export default Info;

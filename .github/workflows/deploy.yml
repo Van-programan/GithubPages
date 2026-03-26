@@ -1,5 +1,8 @@
 name: Deploy React App to GitHub Pages
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+
 # Триггер для запуска пайплайна
 on:
   push:

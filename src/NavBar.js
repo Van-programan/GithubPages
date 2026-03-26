@@ -5,7 +5,7 @@ function Navbar() {
     <nav>
       <div>
         <Link to="/">
-          MyApp
+          App
         </Link>
         <ul>
           <li>
